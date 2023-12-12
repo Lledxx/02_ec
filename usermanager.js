@@ -38,13 +38,14 @@ users.create({
     email : "joaquinlledox@outlook.com.ar",
 });
 
-
+//console log de UserManager
 console.log(UserManager.users)
 
+// console log de allUsers read
 const allUsers = users.read();
 console.log("Todos los usuarios:", allUsers);
 
-
+//console log de userIdToRead
 const userIdToRead = 1; 
 const specificUser = users.readOne(userIdToRead);
 console.log("Usuario específico:", specificUser);
