@@ -41,12 +41,14 @@ products.create({
     price: "10",
     stock: "100",
 });
+//console log de products
+console.log(ProductManager.products)
 
-
+//console log de read products
 const allProducts = products.read();
 console.log("Todos los productos:", allProducts);
 
-
+//console log de productIdtoRead
 const productIdToRead = 1; 
 const specificProduct = products.readOne(productIdToRead);
 console.log("Producto específico:", specificProduct);
