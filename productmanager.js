@@ -1,8 +1,6 @@
 class ProductManager {
     static products = [];
 
-    constructor() {}
-
     create(data) {
         const product = {
             id: ProductManager.products.length === 0

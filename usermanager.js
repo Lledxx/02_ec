@@ -1,8 +1,6 @@
 class UserManager {
     static users = [];
 
-    constructor() {}
-
     create(data) {
         const user = {
             id: UserManager.users.length === 0
